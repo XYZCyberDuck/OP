@@ -12,10 +12,10 @@ async function checkDiscordID() {
   try {
     // Replace with your bot token and guild ID
     const response = await fetch(
-      `https://discord.com/api/v9/users/${discordId}?guild_id=YOUR_GUILD_ID`,
+      `https://discord.com/api/v9/users/${discordId}?guild_id=1244942090413019208`,
       {
         headers: {
-          Authorization: "Bot YOUR_BOT_TOKEN_HERE",
+          Authorization: "Bot MTQ1ODQwNTAwNDA5MTMyNjQ5NQ.GVhpt0.XasjKoL2i0t9fV21sOyccJi7d7eT6Dk8jFziIc",
         },
       }
     );
